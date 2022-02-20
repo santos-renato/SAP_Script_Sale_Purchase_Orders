@@ -1,6 +1,7 @@
 Attribute VB_Name = "SAP_Script_SO_PO"
 Sub PO_Automation_SAP_Script()
     
+    ' Created by Renato Santos
     ' Macro to run SAP Script based on specific customer project template for Sales Orders & Purchase Orders
     ' Macro allows to run multiple templates
     ' Specific templates already have automatic fields based on dependent dropdowns
