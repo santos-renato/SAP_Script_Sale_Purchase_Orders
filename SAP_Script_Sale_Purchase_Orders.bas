@@ -30,7 +30,7 @@ Sub PO_Automation_SAP_Script()
     ' getting connection to SAP Server
     
     'Replace directory if needed
-    Shell "C:\WINCOR-NIXDORF\SAP\FrontEnd\SAPgui\saplogon.exe", 4
+    Shell "C:\XXXX\SAP\FrontEnd\SAPgui\saplogon.exe", 4
     Set WshShell = CreateObject("WScript.Shell")
     
     Do Until WshShell.AppActivate("SAP Logon ")
